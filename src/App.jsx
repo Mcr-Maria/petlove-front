@@ -1,7 +1,9 @@
+import Rotas from "./routes/Rotas";
+
 const App = () => {
   return(
     <>
-      App
+      <Rotas/>
     </>
   )
 }
