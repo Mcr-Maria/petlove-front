@@ -3,6 +3,7 @@ import { NavLink } from "react-router";
 
 const Menu = () => {
     return (
+        
         <div className="p-4">
             <div className="flex *:flex-1 px-6 py-4 items-center bg-roxo rounded-[40px]">
                 <NavLink end to = {"/admin"} className="flex flex-col items-center text-white [&.active]:text-vermelho group">
